@@ -4,6 +4,7 @@ public class MainWeatherAnswer {
 
     private double temp;
     private double humidity;
+    private double pressure;
 
     public double getTemp() {
         return temp;
@@ -19,5 +20,13 @@ public class MainWeatherAnswer {
 
     public void setHumidity(double humidity) {
         this.humidity = humidity;
+    }
+
+    public double getPressure() {
+        return pressure;
+    }
+
+    public void setPressure(double pressure) {
+        this.pressure = pressure;
     }
 }
