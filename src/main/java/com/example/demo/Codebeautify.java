@@ -7,9 +7,12 @@ public class Codebeautify {
     private String table;
     private String currency;
     private String code;
-   // ArrayList< Object > rates = new ArrayList< Object >();
 
-   private CurrencyRates rates;
+
+
+
+
+    /*  private CurrencyRates rates;
 
     public CurrencyRates getRates() {
         return rates;
@@ -17,7 +20,7 @@ public class Codebeautify {
 
     public void setRates(CurrencyRates rates) {
         this.rates = rates;
-    }
+    } */
 // Getter Methods
 
     public String getTable() {

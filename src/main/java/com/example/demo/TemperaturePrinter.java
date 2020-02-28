@@ -14,9 +14,11 @@ public class TemperaturePrinter {
 
         Codebeautify codebeautify = restTemplate.getForObject(urlMoney, Codebeautify.class);
 
+        MainRates mainRates = restTemplate.getForObject(urlMoney, MainRates.class);
+
         System.out.println("Temperatura w Suenzi: " + weatherAnswer.getMain().getTemp() + "*C" + " Wilgotność w Suenzji: " + weatherAnswer.getMain().getHumidity() +
                 "ciśnienie: " + weatherAnswer.getMain().getPressure() + " hektarów");
 
-        System.out.println("Hajs? " + codebeautify.getCurrency() + " " + codebeautify.getRates().getMid());
+        System.out.println("Hajs? " + codebeautify.getCurrency() + " " + mainRates.getRates());
     }
 }
