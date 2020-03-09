@@ -1,6 +1,5 @@
 package com.example.demo;
 
-import java.util.ArrayList;
 
 public class Codebeautify {
 
@@ -10,18 +9,6 @@ public class Codebeautify {
 
 
 
-
-
-    /*  private CurrencyRates rates;
-
-    public CurrencyRates getRates() {
-        return rates;
-    }
-
-    public void setRates(CurrencyRates rates) {
-        this.rates = rates;
-    } */
-// Getter Methods
 
     public String getTable() {
         return table;
@@ -35,7 +22,7 @@ public class Codebeautify {
         return code;
     }
 
-    // Setter Methods
+
 
     public void setTable(String table) {
         this.table = table;
